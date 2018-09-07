@@ -1,0 +1,39 @@
+.App {
+  text-align: center;
+  min-width: 100vw;
+  min-height: 100vh;
+  background: lightgray;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+button {
+  margin: 10px;
+  width: 150px;
+  height: 40px;
+  background: green;
+  color: white;
+  text-shadow: .5px .5px 1px black;
+  font-size: 18px;
+  transition: .15s;
+  cursor: pointer;
+  border: none;
+  border-radius: 3px;
+}
+
+button:hover {
+  box-shadow: 1px 4px 5px rgba(0, 0, 0, 0.432);
+}
+
+button:active {
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.432);
+}
+
+button:focus {
+  outline: none;
+}
+
